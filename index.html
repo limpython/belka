@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Belka</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Rubik:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="page">
+
+    <section class="contacts">
+        <div class="container">
+            <span class="contacts__item">
+                <span class="contacts__icon icon icon--watch"></span>
+                24 часа
+            </span>
+            <span class="contacts__item contacts__item--phone">
+                <span class="contacts__icon icon icon--phone"></span>
+                8 (812) 999-77-88
+            </span>
+            <span class="contacts__item">
+                <span class="contacts__icon icon icon--map-pointer"></span>
+                Выборгское ш., 220
+            </span>
+        </div>
+    </section>
+
+    <span class="menu-toggle" id="js-menu-toggle">
+        <span class="icon icon--menu"></span>
+    </span>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__logo" type="Belka"></div>
+            <div class="header__buy">
+                <a class="button js-menu__item" href="#prices">
+                    Купить билет
+                </a>
+            </div>
+            <nav class="menu menu--header header__menu" id="js-header__menu">
+                <a class="menu__item menu__item--active js-menu__item" href="#routes">Трассы</a>
+                <a class="menu__item js-menu__item" href="#actions">Акции</a>
+                <a class="menu__item js-menu__item" href="#prices">Цены</a>
+                <a class="menu__item js-menu__item" href="#reviews">Отзывы</a>
+                <a class="menu__item  js-menu__item" href="#contacts">Контакты</a>
+                <div class="menu__social">
+                    <a class="menu__social-icon icon icon--twitter-header" title="Twitter" href="https://twitter.com/belka"></a>
+                    <a class="menu__social-icon icon icon--vk-header" title="VK" href="https://vk.com/belka"></a>
+                    <a class="menu__social-icon icon icon--instagram-header" title="Instagram" href="https://instagram.com/belka"></a>
+                </div>
+            </nav>
+
+            <section class="about">
+                <h2 class="heading about__heading">Скалодром</h2>
+                <div class="about__text">
+                    <p>
+                        Заберись на вершину, не уезжая в горы!
+                    </p>
+                    <p>
+                        Скалодром BELKA для всех, кто желает впервые попробовать себя в скалолазании, а так же для спортсменов разного уровня.
+                    </p>
+                    <p>
+                        Bключает в себя 2 детские трассы и 3 взрослые.
+                    </p>
+                    <p>
+                        Cкалолазы смогут найти подробную схему всех подготовленных трасс, посмотреть категорию сложности.
+                    </p>
+                    <div class="about__buy">
+                        <a class="button js-menu__item" href="#prices">
+                            Купить билет
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <div class="page__content">
+
+        <section class="routes" id="routes">
+            <div class="container">
+                <h2 class="heading heading--light routes__heading">Трассы</h2>
+
+                <div class="routes__list" id="js-routes__list">
+
+                    <div class="routes__item">
+                        <h3 class="routes__title">Трасса #1</h3>
+                        <div class="routes__config">
+                            <span class="icon icon--mountain routes__icon"></span>
+                            Высота 15 м.
+                        </div>
+                        <div class="routes__config">
+                            <span class="icon icon--man routes__icon"></span>
+                            Возраст 13+
+                        </div>
+                        <img src="img/route-1.jpg" alt="Трасса #1" class="routes__img">
+                        <p class="routes__descr">
+                            Трасса для опытных скалолазов. Требуется наличие хорошей физ. подготовки.
+                        </p>
+                    </div>
+
+                    <div class="routes__item">
+                        <h3 class="routes__title">Трасса #2</h3>
+                        <div class="routes__config">
+                            <span class="icon icon--mountain routes__icon"></span>
+                            Высота 4 м.
+                        </div>
+                        <div class="routes__config">
+                            <span class="icon icon--man routes__icon"></span>
+                            Возраст 4+
+                        </div>
+                        <img src="img/route-2.jpg" alt="Трасса #2" class="routes__img">
+                        <p class="routes__descr">
+                            Для людей с разной физ. подготовкой. Различные зацепы и рельефы стены.
+                        </p>
+                    </div>
+
+                    <div class="routes__item">
+                        <h3 class="routes__title">Трасса #3</h3>
+                        <div class="routes__config">
+                            <span class="icon icon--mountain routes__icon"></span>
+                            Высота 10 м.
+                        </div>
+                        <div class="routes__config">
+                            <span class="icon icon--man routes__icon"></span>
+                            Возраст 13+
+                        </div>
+                        <img src="img/route-3.jpg" alt="Трасса #3" class="routes__img">
+                        <p class="routes__descr">
+                            Трасса подойтет как для профессионалов, так и для любителей. Необходима хорошая физ. подготовка.
+                        </p>
+                    </div>
+
+                    <div class="routes__item">
+                        <h3 class="routes__title">Трасса #4</h3>
+                        <div class="routes__config">
+                            <span class="icon icon--mountain routes__icon"></span>
+                            Высота 3 м.
+                        </div>
+                        <div class="routes__config">
+                            <span class="icon icon--man routes__icon"></span>
+                            Возраст 4+
+                        </div>
+                        <img src="img/route-4.jpg" alt="Трасса #4" class="routes__img">
+                        <p class="routes__descr">
+                            Самая невысокая трасса. Специальные  зацепы для детей.
+                        </p>
+                    </div>
+
+                    <div class="routes__item">
+                        <h3 class="routes__title">Трасса #5</h3>
+                        <div class="routes__config">
+                            <span class="icon icon--mountain routes__icon"></span>
+                            Высота 8 м.
+                        </div>
+                        <div class="routes__config">
+                            <span class="icon icon--man routes__icon"></span>
+                            Возраст 13+
+                        </div>
+                        <img src="img/route-5.jpg" alt="Трасса #5" class="routes__img">
+                        <p class="routes__descr">
+                            Средняя высота и сложность. Физ. подготовка не обязательна.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="actions" id="actions">
+            <div class="container">
+                <h2 class="heading actions__heading">Акции</h2>
+
+                <ul class="actions__list">
+
+                    <li class="actions__item">
+                        <div class="actions__img actions__img--company"></div>
+                        <h3 class="actions__title">
+                            Компаниям от 5 чел. скидка 10%
+                        </h3>
+                        <a href="#" class="actions__more">Подробнее</a>
+                    </li>
+                    <li class="actions__item">
+                        <div class="actions__img actions__img--family"></div>
+                        <h3 class="actions__title">
+                            Многодетным семьям скидка 20%
+                        </h3>
+                        <a href="#" class="actions__more">Подробнее</a>
+                    </li>
+                    <li class="actions__item">
+                        <div class="actions__img actions__img--isic"></div>
+                        <h3 class="actions__title">
+                                Студентам<br>по карте isic 20%
+                        </h3>
+                        <a href="#" class="actions__more">Подробнее</a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <div class="container">
+            <section class="advantages" id="advantages">
+
+                    <h2 class="heading heading--light advantages__heading">У нас</h2>
+
+                    <ul class="advantages__list">
+                        <li class="advantages__item">
+                            <div class="advantages__icon">
+                                <img class="svg-icon svg-icon--equipment" src="img/icons/svg/equipment.svg">
+                            </div>
+                            <p class="advantages__descr">
+                                Альпинистское снаряжение  и страховочные устройства французской компании Petzl
+                            </p>
+                        </li>
+                        <li class="advantages__item">
+                            <div class="advantages__icon">
+                                <img class="svg-icon svg-icon--sign" src="img/icons/svg/sign.svg">
+                            </div>
+                            <p class="advantages__descr">
+                                Понятная маркировка трасс (ламинированные таблички и зацепки определенного цвета для каждой трассы)
+                            </p>
+                        </li>
+                        <li class="advantages__item">
+                            <div class="advantages__icon">
+                                <img class="svg-icon svg-icon--question" src="img/icons/svg/question.svg">
+                            </div>
+                            <p class="advantages__descr">
+                                На территории скалодрома всегда находится инструктор, который готов ответить на любой Ваш вопрос!
+                            </p>
+                        </li>
+                    </ul>
+            </section>
+        </div>
+
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <div class="gallery__list" id="js-gallery__list">
+                    <a href="img/gallery-img-1.jpg" class="gallery__item" target="_blank">
+                        <img src="img/gallery-thumb-1.jpg" alt="Фото 1" class="gallery__img">
+                    </a>
+                    <a href="img/gallery-img-2.jpg" class="gallery__item" target="_blank">
+                        <img src="img/gallery-thumb-2.jpg" alt="Фото 2" class="gallery__img">
+                    </a>
+                    <a href="img/gallery-img-3.jpg" class="gallery__item" target="_blank">
+                        <img src="img/gallery-thumb-3.jpg" alt="Фото 3" class="gallery__img">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="prices" id="prices">
+                <h2 class="heading prices__heading">Цены</h2>
+
+                <form action="#" method="post" id="form-buyss">
+
+                    <div class="prices__select">
+                        <div class="prices__select-group js-prices__select-group">
+                            <div class="prices__select-toggle js-prices__select-toggle">
+                                Выберите возраст
+                                <img src="img/icons/svg/expand.svg" class="svg-icon svg-icon--expand" alt="">
+                            </div>
+                            <ul class="prices__select-list">
+                                <li class="prices__select-item js-prices__select-item">
+                                    Детский<br>
+                                    от 4 лет
+                                </li>
+                                <li class="prices__select-item js-prices__select-item">
+                                    Взрослый<br>
+                                    от 7 лет
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="prices__select-group js-prices__select-group">
+                            <div class="prices__select-toggle js-prices__select-toggle">
+                                Выберите место
+                                <img src="img/icons/svg/expand.svg" class="svg-icon svg-icon--expand" alt="">
+                            </div>
+                            <ul class="prices__select-list">
+                                <li class="prices__select-item js-prices__select-item">
+                                    Все трассы<br>
+                                    Веревочный парк + скалодром
+                                </li>
+                                <li class="prices__select-item js-prices__select-item">
+                                    Скалодром
+                                </li>
+                                <li class="prices__select-item js-prices__select-item">
+                                    Веревочный парк
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="prices__select-group js-prices__select-group">
+                            <div class="prices__select-toggle js-prices__select-toggle">
+                                Выберите длительность
+                                <img src="img/icons/svg/expand.svg" class="svg-icon svg-icon--expand" alt="">
+                            </div>
+                            <ul class="prices__select-list">
+                                <li class="prices__select-item js-prices__select-item">
+                                    Прохождение парка<br>
+                                    за 3 часа
+                                </li>
+                                <li class="prices__select-item js-prices__select-item">
+                                    Прохождение парка<br>
+                                    за 12 часов
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="container">
+                        <div class="prices__table">
+
+                            <div class="prices__row prices__row--age">
+                                <div class="prices__col">
+                                    <div class="prices__item prices__item--type">
+                                        <div>
+                                            Детский
+                                            <span class="prices__item-tip">
+                                                от 4 лет
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="prices__col">
+                                    <div class="prices__item prices__item--type">
+                                        <div>
+                                            Взрослый<span class="prices__text--optional">/Детский</span>
+                                            <span class="prices__item-tip">
+                                                от 4 лет
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="prices__row prices__row--title">
+                                <div class="prices__col">
+                                    Прохождение препятствий парка <strong>3 часа</strong>
+                                </div>
+                            </div>
+
+                            <div class="prices__row">
+                                <div class="prices__col">
+                                    <div class="prices__item prices__item--type">
+                                        Все трассы<br>
+                                        Веревочный парк + скалодром
+                                    </div>
+                                    <div class="prices__item prices__item--type">
+                                        Скалодром
+                                    </div>
+                                    <div class="prices__item prices__item--type">
+                                        Веревочный парк
+                                    </div>
+                                </div>
+                                <div class="prices__col">
+                                    <div class="prices__item prices__item--value">
+                                        2200 ₽
+                                    </div>
+                                    <div class="prices__item prices__item--value">
+                                        1000 ₽
+                                    </div>
+                                    <div class="prices__item prices__item--value">
+                                        1200 ₽
+                                    </div>
+                                </div>
+                                <div class="prices__col">
+                                    <div class="prices__item prices__item--value">
+                                        2500 ₽
+                                    </div>
+                                    <div class="prices__item prices__item--value">
+                                        1300 ₽
+                                    </div>
+                                    <div class="prices__item prices__item--value">
+                                        1500 ₽
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="prices__row prices__row--title">
+                                <div class="prices__col">
+                                    Прохождение препятствий парка <strong>12 часов</strong>
+                                </div>
+                            </div>
+
+                            <div class="prices__row">
+                                <div class="prices__col">
+                                    <div class="prices__item prices__item--type">
+                                        Все трассы<br>
+                                        Веревочный парк + скалодром
+                                    </div>
+                                    <div class="prices__item prices__item--type">
+                                        Скалодром
+                                    </div>
+                                    <div class="prices__item prices__item--type">
+                                        Веревочный парк
+                                    </div>
+                                </div>
+                                <div class="prices__col">
+                                    <div class="prices__item prices__item--value">
+                                        5500 ₽
+                                    </div>
+                                    <div class="prices__item prices__item--value prices__item--active">
+                                        3000 ₽
+                                    </div>
+                                    <div class="prices__item prices__item--value">
+                                        4000 ₽
+                                    </div>
+                                </div>
+                                <div class="prices__col">
+                                    <div class="prices__item prices__item--value">
+                                        6000 ₽
+                                    </div>
+                                    <div class="prices__item prices__item--value">
+                                        3500 ₽
+                                    </div>
+                                    <div class="prices__item prices__item--value">
+                                        4500 ₽
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="prices__total">
+                        <span>Стоимость абонемента</span>
+                        <span>0 ₽</span>
+                    </div>
+
+                    <div class="container">
+                        <div class="prices__extra">
+                            <span>Каждый дополнительный час</span>
+                            <span class="prices__extra-value"><span class="plus">+ </span>500 ₽</span>
+                        </div>
+
+                        <div class="prices__extra prices__extra--personal">
+                            <span>Персональный оператор парка</span>
+                            <span class="prices__extra-value">600 ₽ /час</span>
+                        </div>
+
+                        <div class="prices__submit">
+                            <button type="submit" class="button button--red prices__submit-btn">Купите билет</button>
+                            <a href="#" target="_blank" class="link">Техника безопасности (PDF)</a>
+                        </div>
+                    </div>
+
+                </form>
+
+        </section>
+
+
+        <div class="container">
+            <section class="reviews" id="reviews">
+                <h2 class="heading reviews__heading">Отзывы</h2>
+
+                <div class="reviews__list" id="js-reviews__list">
+
+                    <div class="reviews__item">
+                        <img src="img/review-user-1.png" alt="Алексей" class="reviews__img">
+                        <div class="reviews__title">Алексей</div>
+                        <div class="reviews__descr">Скалолаз-любитель.</div>
+                        <div class="reviews__social">
+                            <a class="reviews__icon icon icon--instagram" title="Instagram" href="https://instagram.com"></a>
+                            <a class="reviews__icon icon icon--vk" title="VK" href="https://vk.com/id0"></a>
+                        </div>
+                        <p class="reviews__message">
+                            Интересные трассы, вкусная еда и самые приветливые тренера!
+                        </p>
+                    </div>
+
+                    <div class="reviews__item">
+                        <img src="img/review-user-2.png" alt="Мария" class="reviews__img">
+                        <div class="reviews__title">Мария.</div>
+                        <div class="reviews__descr">Студентка.</div>
+                        <div class="reviews__social">
+                            <a class="reviews__icon icon icon--instagram" title="Instagram" href="https://instagram.com"></a>
+                            <a class="reviews__icon icon icon--vk" title="VK" href="https://vk.com/id0"></a>
+                        </div>
+                        <p class="reviews__message">
+                            Лучший скалодром в городе!
+                        </p>
+                    </div>
+
+                    <div class="reviews__item">
+                        <img src="img/review-user-3.png" alt="Екатерина" class="reviews__img">
+                        <div class="reviews__title">Екатерина.</div>
+                        <div class="reviews__descr">Мама троих детей.</div>
+                        <div class="reviews__social">
+                            <a class="reviews__icon icon icon--instagram" title="Instagram" href="https://instagram.com"></a>
+                            <a class="reviews__icon icon icon--vk" title="VK" href="https://vk.com/id0"></a>
+                        </div>
+                        <p class="reviews__message">
+                            Парк «BELKA» — отличная альтернатива наскучившим походам в кино и кафе.
+                        </p>
+                    </div>
+
+                    <div class="reviews__item">
+                        <img src="img/review-user-1.png" alt="Алексей" class="reviews__img">
+                        <div class="reviews__title">Алексей</div>
+                        <div class="reviews__descr">Скалолаз-любитель.</div>
+                        <div class="reviews__social">
+                            <a class="reviews__icon icon icon--instagram" title="Instagram" href="https://instagram.com"></a>
+                            <a class="reviews__icon icon icon--vk" title="VK" href="https://vk.com/id0"></a>
+                        </div>
+                        <p class="reviews__message">
+                            Интересные трассы, вкусная еда и самые приветливые тренера!
+                        </p>
+                    </div>
+
+                    <div class="reviews__item">
+                        <img src="img/review-user-2.png" alt="Мария" class="reviews__img">
+                        <div class="reviews__title">Мария.</div>
+                        <div class="reviews__descr">Студентка.</div>
+                        <div class="reviews__social">
+                            <a class="reviews__icon icon icon--instagram" title="Instagram" href="https://instagram.com"></a>
+                            <a class="reviews__icon icon icon--vk" title="VK" href="https://vk.com/id0"></a>
+                        </div>
+                        <p class="reviews__message">
+                            Лучший скалодром в городе!
+                        </p>
+                    </div>
+
+                    <div class="reviews__item">
+                        <img src="img/review-user-3.png" alt="Екатерина" class="reviews__img">
+                        <div class="reviews__title">Екатерина.</div>
+                        <div class="reviews__descr">Мама троих детей.</div>
+                        <div class="reviews__social">
+                            <a class="reviews__icon icon icon--instagram" title="Instagram" href="https://instagram.com"></a>
+                            <a class="reviews__icon icon icon--vk" title="VK" href="https://vk.com/id0"></a>
+                        </div>
+                        <p class="reviews__message">
+                            Парк «BELKA» — отличная альтернатива наскучившим походам в кино и кафе.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer" id="contacts">
+            <div class="map footer__map">
+                <img src="img/map.jpg" alt="Карта" class="map__img">
+            </div>
+
+            <div class="container">
+                <div class="footer__info">
+                    <section class="contacts contacts--footer footer__contacts">
+                        <span class="contacts__item">
+                            <img src="img/icons/svg/map-pointer-light.svg" class="contacts__icon svg-icon svg-icon--map-pointer-light">
+                            Выборгское ш., 220
+                        </span>
+                        <span class="contacts__item">
+                            <img src="img/icons/svg/phone-light.svg" class="contacts__icon svg-icon svg-icon--phone-light">
+                            8 (812) 999-77-88
+                        </span>
+                    </section>
+
+                    <div class="footer__menu">
+                        <nav class="menu menu--footer">
+                            <a class="menu__item menu__item--active js-menu__item" href="#routes">Трассы</a>
+                            <a class="menu__item js-menu__item" href="#actions">Акции</a>
+                            <a class="menu__item js-menu__item" href="#prices">Цены</a>
+                            <a class="menu__item js-menu__item" href="#reviews">Отзывы</a>
+                            <a class="menu__item js-menu__item" href="#contacts">Контакты</a>
+                            <div class="menu__social">
+                                <a href="https://twitter.com/belka" class="menu__social-icon">
+                                    <img src="img/icons/svg/twitter-footer.svg" class="svg-icon svg-icon--twitter-footer" title="Twitter" alt="Twitter">
+                                </a>
+                                <a href="https://vk.com/belka" class="menu__social-icon">
+                                    <img src="img/icons/svg/vk-footer.svg" class=" svg-icon svg-icon--vk-footer" title="VK" alt="VK">
+                                </a>
+                                <a class="menu__social-icon" href="https://instagram.com/belka">
+                                    <img src="img/icons/svg/instagram-footer.svg" class="menu__social-icon svg-icon svg-icon--instagram-footer" title="Instagram" alt="Instagram">
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                <a class="icon icon-upward footer__upward" href="#" title="Наверх" id="js-upward">
+                    <img class="svg-icon svg-icon--upward" src="img/icons/svg/upward.svg" alt="">
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+</div>
+
+<script src="build/js/script.min.js"></script>
+
+</body>
+</html>
